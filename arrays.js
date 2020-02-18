@@ -34,11 +34,11 @@ function removeElementFromEndOfArray(a){
 }
 function addElementToEndOfArray(a,b)
 {
-  a.push(b);
-  return a;
+  var c=[...a,b];
+  return c;
 }
 function destructivelyAddElementToEndOfArray(a,b)
 {
-  var c=[...a,b];
-  return c;
+  a.push(b);
+  return a;
 }
