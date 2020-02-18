@@ -29,7 +29,8 @@ function destructivelyRemoveElementFromEndOfArray(a)
   return a;
 }
 function removeElementFromEndOfArray(a){
-  a=a.slice(0, a.length - 1);
+var c
+  c=a.slice(0, a.length - 1);
 
 }
 function addElementToEndOfArray(a,b)
