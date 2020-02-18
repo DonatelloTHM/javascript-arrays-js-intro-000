@@ -30,7 +30,7 @@ function destructivelyRemoveElementFromEndOfArray(a)
 }
 function removeElementFromEndOfArray(a){
 var c
-  c=a.slice(0, a.length - 1);
+  a.slice(0, a.length);
 
 }
 function addElementToEndOfArray(a,b)
