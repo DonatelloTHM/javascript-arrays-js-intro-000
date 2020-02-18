@@ -10,4 +10,3 @@ function destructivelyAddElementToBeginningOfArray(a,b)
   var c=[b,...a];
   return c;
 }
-console.log(addElementToBeginningOfArray(chocolateBars,"Mule"))
