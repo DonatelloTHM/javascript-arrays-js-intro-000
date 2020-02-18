@@ -31,3 +31,12 @@ function removeElementFromEndOfArray(a){
   a=a.slice(0, a.length - 1);
 
 }
+function addElementToEndOfArray(a,b)
+{
+  a.push(b);
+  return a;
+}
+function destructivelyAddElementToEndOfArray(a,b)
+{
+  var c=[...a,b];
+  return c;
